@@ -1,0 +1,10 @@
+body {
+background-color: black;
+font-family: arial;
+}
+h1 {
+    color: white;
+}
+p{
+    color: rgba(111, 224, 226, 0.511);
+}
