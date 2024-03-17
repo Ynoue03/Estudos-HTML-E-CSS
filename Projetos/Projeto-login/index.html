@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querie.css">
+</head>
+<body>
+       <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p> Seja bem vindo</p>
+                <form action="login.php" method="post" autocomplete="">
+                    <div class="campo">
+                        
+                        <input type="email" name="login" id="ilogin" placeholder="Seu E-mail" autocomplete="email" required minlength="5" max="30">
+                        <Label for="ilogin">Login</Label>
+                    </div>
+                    <div class="campo">
+                        
+                        <input type="password" name="senha" id="isenha" placeholder=" Sua senha" autocomplete="current-password" required minlength="5" maxlength="20">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao">
+                        Esqueci a senha <i class="material-icon">mail</i>
+                    </a>
+                </form>
+            </div>
+
+
+        </section>
+       </main>
+    
+</body>
+</html>

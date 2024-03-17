@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #DFB886;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+section#login {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+   border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+
+}
+
+section#login > div#imagem {
+    display: block;
+    background:rgb(122, 94, 2) url(imagens/Imagen.jpeg) no-repeat;    background-size: cover;
+    height: 200px;
+   
+    background-position: center;
+
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+    ;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p {
+    font-size: .8em;
+}
+
+form > div.campo {
+
+
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div.campo > input {
+    background-color: #DFB886;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #593E1B;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    text-decoration: none;
+}
+label {
+    display: none;
+    
+}
